@@ -14,10 +14,10 @@ import "./src/scripts/verify-implementation";
 import * as dotenv from 'dotenv';
 dotenv.config()
 
-const privateKey = process.env.PRIVATE_KEY;
-const infuraKey = process.env.INFURA_KEY;
-const etherScanApiKey = process.env.ETHERSCAN_API_KEY;
-const exaionKey = process.env.EXAION_KEY;
+const privateKey = ''; //process.env.PRIVATE_KEY;
+const infuraKey = ''; //process.env.INFURA_KEY;
+const etherScanApiKey = '';//process.env.ETHERSCAN_API_KEY;
+const exaionKey = '';//process.env.EXAION_KEY;
 
 
 function warn(message: string){
